@@ -1,0 +1,111 @@
+{
+  "source": "Author-provided test framework snapshot; generic case-to-automation skill only.",
+  "date": "2026-10-30",
+  "files": [
+    {
+      "source": ".agents/skills/case-to-automation/SKILL.md",
+      "destination": "skills/case-to-automation/SKILL.md",
+      "modified": true,
+      "original_sha256": "79e90376c528619ac227a54af4d1109356fdec721c82341f00c419406ea98daa",
+      "current_sha256": "735dd6756b96ad04fd52e44bcd82afc8d0b11ba2c82c961fb74d170d9d9a226a",
+      "changes": [
+        "Normalize line endings/trailing whitespace for publication; third-party notice wording is preserved."
+      ]
+    },
+    {
+      "source": ".agents/skills/case-to-automation/agents/openai.yaml",
+      "destination": "skills/case-to-automation/agents/openai.yaml",
+      "modified": true,
+      "original_sha256": "f03416c5c933cc9694919aeea155b811abbc24fc5614bcdfc1883bc5a3d936bb",
+      "current_sha256": "493a562eb78a410659c65a7d70fddf61b4cd79b7d6ae938f4aa97899b44323c1",
+      "changes": [
+        "Normalize line endings/trailing whitespace for publication; third-party notice wording is preserved."
+      ]
+    },
+    {
+      "source": ".agents/skills/case-to-automation/references/implementation.md",
+      "destination": "skills/case-to-automation/references/implementation.md",
+      "modified": false,
+      "original_sha256": "53e5bcf9fe8429a94a0527c298ff319aef25317ad46fdb441af7e3ee41d11425",
+      "current_sha256": "53e5bcf9fe8429a94a0527c298ff319aef25317ad46fdb441af7e3ee41d11425"
+    },
+    {
+      "source": ".agents/skills/case-to-automation/references/navigation-discovery.md",
+      "destination": "skills/case-to-automation/references/navigation-discovery.md",
+      "modified": false,
+      "original_sha256": "106e234ea0eaa1d04c49a535283fcac36c3f11ddeb12b0eeff556f5dedc9fb08",
+      "current_sha256": "106e234ea0eaa1d04c49a535283fcac36c3f11ddeb12b0eeff556f5dedc9fb08"
+    },
+    {
+      "source": ".agents/skills/case-to-automation/references/project-adapter.md",
+      "destination": "skills/case-to-automation/references/project-adapter.md",
+      "modified": false,
+      "original_sha256": "802f84a6db0e24aaca4ff02f6ef72ff8fb01ee60b0cfa2a2d35ec83840dc01dc",
+      "current_sha256": "802f84a6db0e24aaca4ff02f6ef72ff8fb01ee60b0cfa2a2d35ec83840dc01dc"
+    },
+    {
+      "source": ".agents/skills/case-to-automation/references/validation.md",
+      "destination": "skills/case-to-automation/references/validation.md",
+      "modified": false,
+      "original_sha256": "d0e0434f57772b7b84490f827ffc8507fae357d65785d5c1869f462200deb3e6",
+      "current_sha256": "d0e0434f57772b7b84490f827ffc8507fae357d65785d5c1869f462200deb3e6"
+    },
+    {
+      "source": ".agents/skills/case-to-automation/scripts/package_skill.py",
+      "destination": "skills/case-to-automation/scripts/package_skill.py",
+      "modified": true,
+      "original_sha256": "cf6b4eefa87ce7d7776f7b39342e3626b9afa9378af6a464cf781ce2afc42418",
+      "current_sha256": "553d6c5136fc79ca7c0767beecfb30810b3e8e3ee2615bf68ec91489a91283a7",
+      "changes": [
+        "Publication update: see repository documentation and initial commit for final source changes, license packaging and portable build configuration."
+      ]
+    },
+    {
+      "source": ".agents/skills/case-to-automation/scripts/run_and_verify.py",
+      "destination": "skills/case-to-automation/scripts/run_and_verify.py",
+      "modified": false,
+      "original_sha256": "ce28ff578bb2f31bbb87779f76a056ece40112be910c5ae5a33407300bc5f1a0",
+      "current_sha256": "ce28ff578bb2f31bbb87779f76a056ece40112be910c5ae5a33407300bc5f1a0"
+    }
+  ],
+  "adapted_test_source": {
+    "source": "tests/unit/test_generic_skill_tools.py",
+    "original_sha256": "84aa1c3cf8bcfc797f6f26338d39c902e56bd9b1e23384fc2774ff703068adc4",
+    "destination": "tests/test_helpers.py",
+    "changes": "Port representative helper checks to stdlib unittest; add real native runner integration and demo error-regression coverage.",
+    "current_sha256": "ccdf1485f12ff85875f44a09ed80901e51d4e3e0b3db68f5eab00bac1fcb7dcc"
+  },
+  "license_status": {
+    "project_license": "MIT",
+    "ownership_basis": "Author confirmed these projects are their own code on 2026-10-31. Third-party licenses remain separate."
+  },
+  "added_files": [
+    ".gitattributes",
+    ".github/workflows/ci.yml",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "README.zh-CN.md",
+    "examples/task_list/app.py",
+    "examples/task_list/cases.md",
+    "examples/task_list/run_tests.py",
+    "skills/case-to-automation/LICENSE",
+    "tests/test_helpers.py",
+    "tools/demo.py"
+  ],
+  "added_file_sha256": {
+    ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+    ".github/workflows/ci.yml": "ae747973b1983817e1e80b1673f5f4109d91d7bcb7d1d85c4738301f69886775",
+    ".gitignore": "9ca77c9452aba7cad9878620127764aac21e6f75dda8f8200fd6c110e1c50bd6",
+    "LICENSE": "b4870729ed3fcd5f58b512800d0831f780cc6db98cda17a356e5d1c9f2401ab3",
+    "README.md": "3571a3a78b1f731dd925ac379ea011410b86017de3ddb7a3d5dc726205b41b4d",
+    "README.zh-CN.md": "a1142f496b67681ecdcc2c502a3524ae6024dcfd87b94444dfa98e176011e471",
+    "examples/task_list/app.py": "ee907646d13dec8450f109a0fd50fcf773ea289ffe54417893aaef168705eeb9",
+    "examples/task_list/cases.md": "32a37d571784510e518844260c83e427044f05831be98865efbf57cbbb826bcc",
+    "examples/task_list/run_tests.py": "2e47a557b0692b18a640eb08267e8295bcc5e1a3a0db9636dfd8e727ee2a65ff",
+    "skills/case-to-automation/LICENSE": "b4870729ed3fcd5f58b512800d0831f780cc6db98cda17a356e5d1c9f2401ab3",
+    "tests/test_helpers.py": "ccdf1485f12ff85875f44a09ed80901e51d4e3e0b3db68f5eab00bac1fcb7dcc",
+    "tools/demo.py": "964fff51e0cf7a179649091cc991a07f502de07c78d672602873c0a303859571"
+  },
+  "hash_basis": "Original hashes preserve the input snapshot. Current and added-file hashes describe Git blob bytes, before checkout line-ending conversion."
+}
